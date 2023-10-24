@@ -5,9 +5,9 @@
   <base>
   <link>
   <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
+     Pet {
+      color: "red";
+      }
   </style>
   <script> </script>
   <meta charset="UTF-8">
@@ -46,7 +46,7 @@
         <source src="lo-fi-synth-keys-detuned-cold-loop_128bpm.wav" type="audio/x-wav" />
       </audio>
 <br>
-  <h2>Datalist</h2>
+  <h2>Types of Pets</h2>
     <label for="Pet-choice">Choose a favorite Pet:</label>
     <input list="Pets" id="Pet-choice" name="Pet-choice" />
       <datalist id="Pets">
@@ -55,6 +55,10 @@
         <option value="Fish"></option>
         <option value="Bird"></option>
       </datalist>
+    <br>
+    <p>My personal favorite pet's are <span class="Pet">dogs</span>. However, I have also owened <span class="Pet">cats</span> as well a
+      <span class="Pet">snake</span>.
+    </p>
   
 </main>
 
