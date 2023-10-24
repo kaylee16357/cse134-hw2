@@ -92,6 +92,22 @@
     ctx.fillRect(0, 0, 150, 75);
   </script>
 
+  <h2>Ooooh Hidden Content</h2>
+   <button onclick="showContent()">Show hidden content</button>
+
+  <template>
+  <h3>Suprise Its just the Huffman Tree Image</h3>
+  <img src="huffmanTree.jpg" width="214" height="204">
+  </template>
+
+<script>
+function showContent() {
+  let temp = document.getElementsByTagName("template")[0];
+  let clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script> 
+
   
 </main>
 
