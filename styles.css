@@ -1,4 +1,4 @@
-nav.myNav{
+.myNav{
    background-color: #6BB77B;
    clear:both;
    float:left;
@@ -7,6 +7,15 @@ nav.myNav{
    font-size:13px;  
    z-index:1000; 
    position:relative;
+}
+
+.myNav ul{
+   margin:0;
+   padding:0;
+   list-style:none;
+   float:right;
+   position:relative;
+   right:50%;
 }
 
 nav.FooterNav{
