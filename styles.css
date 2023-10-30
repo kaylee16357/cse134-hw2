@@ -7,8 +7,7 @@ nav.FooterNav{
 }
 
 header{ 
-  margin: 0px;
-  padding: 0px;
+  position: absolute 
   background-color: #6BB77B;
   
 }
