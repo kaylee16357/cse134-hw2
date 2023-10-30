@@ -18,6 +18,15 @@
    right:50%;
 }
 
+.nav-menu ul li {
+   margin:0 0 0 1px;
+   padding:0;
+   float:left;
+   position:relative;
+   left:50%;
+   top:1px;
+}
+
 nav.FooterNav{
   color: white
 }
