@@ -15,10 +15,10 @@
    list-style:none;
    float:right;
    position:relative;
-   right:75%;
+   right:25%;
 }
 
-.nav-menu ul li {
+.nav-menu li {
    margin:0 0 0 1px;
    padding:0;
    float:left;
