@@ -1,17 +1,19 @@
 nav.myNav{
-  color: white
+   background-color: #6BB77B
+   clear:both;
+   float:left;
+   padding:0px 0px 15px 0px;
+   border-bottom: 1px solid #dbd7d4;
+   width:100%;
+   font-size:13px;  
+   z-index:1000; 
+   position:relative;
 }
 
 nav.FooterNav{
   color: white
 }
 
-header{ 
-  height: 100%;
-  width: 100%;
-  background-color: #6BB77B;
-  
-}
 
 body{
   background-color: #172D13
