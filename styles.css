@@ -18,14 +18,8 @@
    right:25%;
 }
 
-.nav-menu li {
-   margin:0 0 0 1px;
-   padding:0;
-   float:left;
-   position:relative;
-   left:50%;
-   top:1px;
-   display: inline;
+.myNav ul li {
+  diplay: inline;
 }
 
 nav.FooterNav{
