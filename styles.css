@@ -15,7 +15,7 @@
    list-style:none;
    float:right;
    position:relative;
-   right:50%;
+   right:75%;
 }
 
 .nav-menu ul li {
@@ -25,6 +25,7 @@
    position:relative;
    left:50%;
    top:1px;
+   display: inline;
 }
 
 nav.FooterNav{
