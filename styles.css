@@ -21,7 +21,7 @@ footer{
 
 .myNav ul{
    margin: 1vw;
-   padding: 1vw;
+   padding: 0.5vw;
    list-style:none;
    float:right;
    position:relative;
@@ -29,6 +29,7 @@ footer{
 
 .myNav ul li {
   display: inline;
+  
 }
 
 nav.FooterNav{
