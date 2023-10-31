@@ -1,5 +1,14 @@
 @import url("vars.css");
 
+@font-face {
+  font-family: "myFont";
+  src: url("myFont.woff2");
+}
+
+html {
+  font-family: 
+}
+
 body {
   margin: 0;
   background-color: var(--background-color);
