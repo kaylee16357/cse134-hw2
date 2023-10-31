@@ -2,6 +2,7 @@
 
 main{
   background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 footer{
@@ -11,6 +12,7 @@ footer{
 section#index-projects {
   background-color: var(--text-color);
   color: var(--background-color);
+  col-count: 2;
 }
 
 .myNav{
