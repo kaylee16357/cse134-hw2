@@ -2,7 +2,7 @@
 
 
 .myNav{
-   background-color: var(--header-color);
+   background-color: var(header-color);
    clear:both;
    float:left;
    padding:0px 0px 0px 0px;
@@ -31,27 +31,27 @@ nav.FooterNav{
 
 
 body{
-  background-color: var(--background-color);
+  background-color: var(background-color);
 }
 
 footer{
-  background-color: var(--header-color);
+  background-color: var(header-color);
 }
 
 h1{
-  color: var(--text-color);
+  color: var(text-color);
 }
 
 h2{
-  color: var(--text-color);
+  color: var(text-color);
 }
 
 h3{
-  color: var(--text-color);
+  color: var(text-color);
 }
 
 p{
-  color: var(--text-color);
+  color: var(text-color);
 }
 
 
