@@ -28,6 +28,7 @@ footer{
   background-color: var(--header-color);
   color: var(--background-color);
   column-count: 2;
+  display: inline;
 }
 
 #index-projects{
@@ -61,22 +62,20 @@ footer{
   padding: 0.5vw;
 }
 
-.footerNav ul {
-    color: var(--background-color);
-    list-style:none;
-}
-
-p.footerNav{
-    color: var(--background-color);
-    column-span: all;
-}
-
 h1, h2, h3, p {
   color: var(--text-color);
   
 }
 
 a {
+  color: var(--background-color);
+}
+
+em {
+  color: var(--header-color);
+}
+
+footer p {
   color: var(--background-color);
 }
 
