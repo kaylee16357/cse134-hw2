@@ -19,6 +19,8 @@ footer{
 
 #index-projects{
   column-count: 2;
+  color: var(--background-color);
+  background-color: var(--text-color);
 }
 
 .myNav{
@@ -33,7 +35,7 @@ footer{
 }
 
 .myNav ul{
-   margin: 1vw;
+   margin: 0;
    padding: 0.5vw;
    list-style:none;
    float:right;
@@ -44,8 +46,8 @@ footer{
   display: inline;
 }
 
-.footerNav ul li {
-  dilay: inline;
+.footerNav p {
+    color: var(--background-color);
 }
 
 h1, h2, h3, p {
@@ -57,6 +59,8 @@ a {
 }
 
 #index-projects h2 {column-span: all;}
+
+
 
 
 
