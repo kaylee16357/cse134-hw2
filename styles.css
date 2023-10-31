@@ -11,6 +11,10 @@ footer{
   column-count: 2;
 }
 
+#index-projects{
+
+}
+
 .myNav{
    background-color: var(--header-color);
    clear:both;
@@ -32,7 +36,10 @@ footer{
 
 .myNav ul li {
   display: inline;
-  
+}
+
+.footerNav ul li {
+  dilay: inline;
 }
 
 h1, h2, h3, p{
@@ -40,7 +47,7 @@ h1, h2, h3, p{
 }
 
 a {
-  color: var(--text-color);
+  color: var(--background-color);
 }
 
 #index-projects h2 {column-span: all}
