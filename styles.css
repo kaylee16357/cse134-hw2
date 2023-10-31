@@ -2,6 +2,7 @@ a@import url("vars.css");
 
 body {
   margin: 0;
+  background-color: var(--background-color);
 }
 
 main{
