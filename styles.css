@@ -1,4 +1,10 @@
-a@import url("vars.css");
+@import url("vars.css");
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
 
 main{
   background-color: var(--background-color);
@@ -13,7 +19,6 @@ footer{
 
 #index-projects{
   column-count: 2;
-  
 }
 
 .myNav{
@@ -43,7 +48,7 @@ footer{
   dilay: inline;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, p {
   color: var(--text-color);
 }
 
@@ -51,7 +56,7 @@ a {
   color: var(--background-color);
 }
 
-#index-projects h2 {column-span: all}
+#index-projects h2 {column-span: all;}
 
 
 
