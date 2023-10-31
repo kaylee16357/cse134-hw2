@@ -1,6 +1,6 @@
 @import url("vars.css");
 
-body{
+main{
   background-color: var(--background-color);
 }
 
@@ -10,7 +10,7 @@ footer{
 
 section#index-projects {
   background-color: var(--text-color);
-  color: var(--header-color);
+  color: var(--background-color);
 }
 
 .myNav{
