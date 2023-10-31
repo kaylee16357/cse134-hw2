@@ -40,12 +40,11 @@ section#index-projects {
   
 }
 
-
 h1, h2, h3, p{
   color: var(--text-color);
 }
 
-section#index-projects > h2 {column-span: all}
+#index-projects > h2 {column-span: all}
 
 
 
