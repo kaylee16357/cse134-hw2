@@ -1,12 +1,14 @@
 @import url("vars.css");
 
 @font-face {
-  font-family: "myFont";
-  src: url("myFont.woff2");
+  font-family: "Montserrat";
+  src: url('Montserrat-Regular.ttf') format('truetype');
 }
 
+
+
 html {
-  font-family: 
+  font-family:  "Montserrat",  serif, Helvetica;
 }
 
 body {
