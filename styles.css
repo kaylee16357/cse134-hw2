@@ -7,13 +7,14 @@ body{
 footer{
   background-color: var(--header-color);
 }
+
 .myNav{
    background-color: var(--header-color);
    clear:both;
    float:left;
    padding:0px 0px 0px 0px;
    width:100%;
-   font-size:2em;  
+   font-size:1.2em;  
    z-index:1000; 
    position:relative;
 }
@@ -24,7 +25,6 @@ footer{
    list-style:none;
    float:right;
    position:relative;
-   right:25%;
 }
 
 .myNav ul li {
@@ -35,22 +35,9 @@ nav.FooterNav{
   color: var(--text-color);
 }
 
-h1{
+h1, h2, h3, p{
   color: var(--text-color);
 }
-
-h2{
-  color: var(--text-color);
-}
-
-h3{
-  color: var(--text-color);
-}
-
-p{
-  color: var(--text-color);
-}
-
 
 
 
