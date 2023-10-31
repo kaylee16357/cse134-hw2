@@ -28,6 +28,8 @@ footer{
   background-color: var(--header-color);
   color: var(--background-color);
   column-count: 2;
+  postion: relative;
+  float: center;
 }
 
 #index-projects{
@@ -48,19 +50,6 @@ footer{
    position:relative;
 }
 
-.myNav ul{
-   margin: 1vw;
-   padding: 0.5vw;
-   list-style:none;
-   float:right;
-   position:relative;
-}
-
-.myNav ul li {
-  display: inline;
-  padding: 0.5vw;
-}
-
 h1, h2, h3, p {
   color: var(--text-color);
   
@@ -76,11 +65,27 @@ em {
 
 footer p {
   color: var(--background-color);
+  column-span: 2;
 }
 
 #index-projects h2 {column-span: all;}
 
+.myNav ul{
+   margin: 1vw;
+   padding: 0.5vw;
+   list-style:none;
+   float:right;
+   position:relative;
+}
 
+.myNav ul li {
+  display: inline;
+  padding: 0.5vw;
+}
+
+.footerNav ul {
+  list-style:none;
+}
 
 
 
