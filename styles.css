@@ -19,16 +19,12 @@ footer{
 
 #index-projects{
   column-count: 2;
-  color: var(--background-color);
   background-color: var(--text-color);
+  color: var(--background-color);
 }
 
 .myNav{
    background-color: var(--header-color);
-   clear:both;
-   float:left;
-   padding:0px 0px 0px 0px;
-   margin: 0;
    width:100%;
    font-size:1.2em;  
    z-index:1000; 
