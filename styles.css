@@ -24,6 +24,11 @@ header{
  margin: 0;
 }
 
+button {
+  background-color: var(--header-color);
+  color: var(--background-color);
+}
+
 footer{
   background-color: var(--header-color);
   color: var(--background-color);
