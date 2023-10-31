@@ -8,6 +8,11 @@ footer{
   background-color: var(--header-color);
 }
 
+section#index-projects {
+  background-color: var(--text-color);
+  color: var(--header-color);
+}
+
 .myNav{
    background-color: var(--header-color);
    clear:both;
@@ -33,12 +38,12 @@ footer{
 }
 
 nav.FooterNav{
-  color: var(--text-color);
-}
+  color: @import url("vars.css");
 
 h1, h2, h3, p{
   color: var(--text-color);
 }
+
 
 
 
