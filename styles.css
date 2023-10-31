@@ -28,7 +28,6 @@ footer{
   background-color: var(--header-color);
   color: var(--background-color);
   column-count: 2;
-  display: inline;
 }
 
 #index-projects{
