@@ -1,13 +1,19 @@
 @import url("vars.css");
 
+body{
+  background-color: var(--background-color);
+}
 
+footer{
+  background-color: var(--header-color);
+}
 .myNav{
    background-color: var(--header-color);
    clear:both;
    float:left;
    padding:0px 0px 0px 0px;
    width:100%;
-   font-size:13px;  
+   font-size:2em;  
    z-index:1000; 
    position:relative;
 }
@@ -27,15 +33,6 @@
 
 nav.FooterNav{
   color: var(--text-color);
-}
-
-
-body{
-  background-color: var(--background-color);
-}
-
-footer{
-  background-color: var(--header-color);
 }
 
 h1{
