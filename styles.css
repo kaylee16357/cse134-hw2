@@ -1,5 +1,5 @@
 .myNav{
-   background-color: #6BB77B;
+   background-color: var(header-color);
    clear:both;
    float:left;
    padding:0px 0px 0px 0px;
@@ -23,32 +23,32 @@
 }
 
 nav.FooterNav{
-  color: white
+  color: var(text-color);
 }
 
 
 body{
-  background-color: #172D13
+  background-color: var(background-color);
 }
 
 footer{
-  background-color: #6BB77B
+  background-color: var(header-color);
 }
 
 h1{
-  color: white
+  color: var(text-color);
 }
 
 h2{
-  color: white
+  color: var(text-color);
 }
 
 h3{
-  color: white
+  color: var(text-color);
 }
 
 p{
-  color: white
+  color: var(text-color);
 }
 
 
