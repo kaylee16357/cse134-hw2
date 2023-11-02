@@ -23,7 +23,7 @@ header{
 }
 
 button {
-  background-color: var(--header-color);
+  background-color: var(--accent-color);
   color: var(--background-color);
 }
 
