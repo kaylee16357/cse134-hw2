@@ -34,7 +34,7 @@ footer{
   float: center;
 }
 
-#index-projects{
+#index-projects {
   column-count: 2;
   background-color: var(--text-color);
   color: var(--background-color);
@@ -80,7 +80,7 @@ footer p {
   float: center;
 }
 
-#index-projects h2 {column-span: all;}
+#index-projects h2 {text-align: center;}
 
 .myNav ul{
    margin: 1vw;
@@ -94,7 +94,7 @@ footer p {
    margin: 1vw;
    padding: 0.5vw;
    list-style:none;
-   float: center;
+   text-align: center;
    position:relative;
     list-style:none;
 }
