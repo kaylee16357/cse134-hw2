@@ -42,7 +42,6 @@ footer{
 img {
     display: inline-block;
     vertical-align: middle;
-    float: right;
     margin-top: 1vw;
 }
 
@@ -114,6 +113,10 @@ footer p {
 .myNav ul li, .FooterNav ul li{
   display: inline;
   padding: 0.5vw;
+}
+
+a:hover {
+  color: var(--accent-color);
 }
 
 
