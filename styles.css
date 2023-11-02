@@ -42,12 +42,13 @@ footer{
 img {
     display: inline-block;
     vertical-align: middle;
-    padding: 1vw;
+    margin-top: 1vw;
 }
 
 .text {
     display: inline-block;
     vertical-align: middle;
+    margin-top: 1vw;
 }
 
 .myNav{
