@@ -78,6 +78,7 @@ em {
 footer p {
   color: var(--background-color);
   text-align: center;
+  margin: 0.5vw;
 }
 
 #index-projects h2 {text-align: center;}
