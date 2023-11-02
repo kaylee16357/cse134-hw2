@@ -39,6 +39,15 @@ footer{
   color: var(--background-color);
 }
 
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .myNav{
    background-color: var(--header-color);
    clear:both;
