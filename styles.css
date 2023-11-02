@@ -42,12 +42,14 @@ footer{
 img {
     display: inline-block;
     vertical-align: middle;
+    float: right;
     margin-top: 1vw;
 }
 
 .text {
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
     margin-top: 1vw;
 }
 
