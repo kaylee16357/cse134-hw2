@@ -77,6 +77,7 @@ em {
 
 footer p {
   color: var(--background-color);
+  float: center;
 }
 
 #index-projects h2 {column-span: all;}
