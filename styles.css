@@ -54,7 +54,6 @@ footer{
 
 .FooterNav{
    clear:both;
-   float:left;
    padding:0px 0px 0px 0px;
    margin: 0;
    width:100%;
@@ -96,6 +95,7 @@ footer p {
    list-style:none;
    float: center;
    position:relative;
+    list-style:none;
 }
 
 .myNav ul li, .FooterNav ul li{
@@ -103,9 +103,6 @@ footer p {
   padding: 0.5vw;
 }
 
-.FooterNav ul {
-  list-style:none;
-}
 
 
 
