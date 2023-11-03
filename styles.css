@@ -97,6 +97,7 @@ h1, h2, h3, p{
 
 a {
   color: var(--background-color);
+  transition: color 2s;
 }
 
 em {
