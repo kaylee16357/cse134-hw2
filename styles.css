@@ -88,6 +88,10 @@ em {
   color: var(--header-color);
 }
 
+ol a {
+  color: var(--text-color);
+}
+
 footer p {
   color: var(--background-color);
   text-align: center;
