@@ -34,10 +34,6 @@ footer{
   float: center;
 }
 
-#index-projects {
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
 
 img {
     display: inline-block;
