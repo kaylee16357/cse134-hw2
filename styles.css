@@ -66,8 +66,11 @@ img {
    position:relative;
 }
 
+#main-project{
+   background-color: var(--background-color);
+}
+
 #left{
-  background-color: var(--background-color);
   height: 100%;
   width: 50%;
   display: inline-block;
@@ -76,7 +79,6 @@ img {
 }
 
 #right {
-  background-color: var(--background-color);
   height: 100%;
   width: 50%;
   display: inline-block;
