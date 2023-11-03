@@ -5,6 +5,11 @@
   src: url('Montserrat-Regular.ttf') format('truetype');
 }
 
+@keyframes text-color-change {
+  from {color: var(--header-color);}
+  to {color: var(--text-color);}
+}
+
 html {
   font-family:  "Montserrat",  serif, Helvetica;
 }
@@ -96,6 +101,8 @@ a {
 
 em {
   color: var(--header-color);
+  animation-name: text-color-change;
+  animation-duration: 4s;
 }
 
 button {
