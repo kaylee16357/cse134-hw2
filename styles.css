@@ -47,7 +47,8 @@ img {
 
 .text {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: left;
+    margin: 1vw;
     text-align: center;
     margin-top: 1vw;
 }
