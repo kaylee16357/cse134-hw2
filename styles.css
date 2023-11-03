@@ -28,6 +28,8 @@ button {
 }
 
 footer{
+  background-color: var(--header-color);
+  color: var(--background-color);
   postion: relative;
   float: center;
 }
