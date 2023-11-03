@@ -22,18 +22,12 @@ header{
  margin: 0;
 }
 
-button {
-  background-color: var(--accent-color);
-  color: var(--background-color);
-}
-
 footer{
   background-color: var(--header-color);
   color: var(--background-color);
   postion: relative;
   float: center;
 }
-
 
 img {
     display: inline-block;
@@ -71,6 +65,7 @@ img {
    position:relative;
 }
 
+
 h1, h2, h3, p{
   color: var(--text-color);
   
@@ -82,6 +77,11 @@ a {
 
 em {
   color: var(--header-color);
+}
+
+button {
+  background-color: var(--text-color);
+  color: var(--background-color);
 }
 
 ol a {
