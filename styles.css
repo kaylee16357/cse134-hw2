@@ -37,7 +37,8 @@ footer{
 .picture {
     display: inline-block;
     vertical-align: middle;
-    width: 40%;
+    width: 50%;
+    height: 5vw;
     margin-top: 1vw;
 }
 
@@ -80,6 +81,7 @@ footer{
   height: 100%;
   width: 50%;
   display: inline-block;
+  vertical-align: middle;
  
 }
 
@@ -87,6 +89,7 @@ footer{
   height: 100%;
   width: 50%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 h1, h2, h3, p{
