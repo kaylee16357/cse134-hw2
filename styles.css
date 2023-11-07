@@ -57,10 +57,6 @@ footer{
    position:relative;
 }
 
-#main-projects{
-   background-color: var(--background-color);
-}
-
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
