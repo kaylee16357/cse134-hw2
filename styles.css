@@ -34,21 +34,9 @@ footer{
   float: center;
 }
 
-.picture {
-    display: inline-block;
-    vertical-align: middle;
-    width: 40%;
-    height: 25vw;
-    margin-top: 1vw;
-}
 
-.text {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 1vw;
-    width: 50%;
-    text-align: left;
-    margin-top: 1vw;
+.text picture {
+    float: right;
 }
 
 .myNav{
