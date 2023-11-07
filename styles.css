@@ -35,13 +35,21 @@ footer{
 }
 
 
-.homepage_top picture {
-    clear: both;
-    float: right;
-    width: 500px;
-    height: 550px;
-    object-fit: none;
-    object-position: 5px 10%;
+picture {
+    display: inline-block;
+    object-fit:  none;
+    vertical-align: middle;
+    width: 40%;
+    margin-top: 1vw;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1vw;
+    width: 50%;
+    text-align: left;
+    margin-top: 1vw;
 }
 
 .myNav{
