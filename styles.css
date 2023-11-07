@@ -87,6 +87,7 @@ footer{
 
 #right {
   height: 100%;
+  left-margin: 1vw;
   width: 50%;
   display: inline-block;
   vertical-align: middle;
