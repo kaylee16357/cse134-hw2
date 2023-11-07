@@ -34,22 +34,6 @@ footer{
   float: center;
 }
 
-.homepage_top {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 1vw;
-    width: 50%;
-    text-align: left;
-    margin-top: 1vw;
-}
-
-picture {
-    display: inline-block;
-    object-fit:  none;
-    vertical-align: middle;
-    width: 40%;
-    margin-top: 1vw;
-}
 
 .myNav{
    background-color: var(--header-color);
