@@ -90,6 +90,7 @@ footer{
   width: 50%;
   display: inline-block;
   vertical-align: middle;
+  float: right;
 }
 
 h1, h2, h3, p{
