@@ -58,9 +58,7 @@ footer{
 }
 
 .text_and_photo{
-  display: flex;
   float: left;
-  flex-wrap: nowrap;
 }
 
 .text_and_photo .box {
