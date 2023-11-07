@@ -57,6 +57,14 @@ footer{
    position:relative;
 }
 
+.text_and_photo{
+  display: flex;
+}
+
+.text_and_photo .box {
+   width: 50%;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
