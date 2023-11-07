@@ -36,7 +36,12 @@ footer{
 
 
 .homepage_top picture {
+    clear: both;
     float: right;
+    width: 500px;
+    height: 550px;
+    object-fit: none;
+    object-position: 5px 10%;
 }
 
 .myNav{
