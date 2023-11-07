@@ -97,6 +97,15 @@ button {
   color: var(--background-color);
 }
 
+input{
+  width: 40%
+}
+
+textarea{
+  width: 60%
+  height: 6vw;
+}
+
 ol a {
   color: var(--text-color);
 }
