@@ -68,6 +68,7 @@ footer{
 #left{
   height: 100%;
   width: 50%;
+  padding: 1vw;
   display: inline-block;
   vertical-align: middle;
  
@@ -77,6 +78,7 @@ footer{
   height: 100%;
   left-margin: 1vw;
   width: 50%;
+  padding: 1vw;
   display: inline-block;
   vertical-align: middle;
   float: right;
