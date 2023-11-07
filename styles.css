@@ -15,6 +15,7 @@
   .text_and_photo, .text_and_photo .box, .flex-container, .flex-container .box {
     width:  100%;
   }
+}
 
 html {
   font-family:  "Montserrat",  serif, Helvetica;
