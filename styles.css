@@ -59,6 +59,8 @@ footer{
 
 .text_and_photo{
   float: left;
+  display: flex;
+  flex-wrap: nowrap;
   width:  100%;
 }
 
