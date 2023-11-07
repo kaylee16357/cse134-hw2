@@ -62,7 +62,7 @@ footer{
 }
 
 .text_and_photo .box {
-   display: inline_block;
+   display: inline-block;
    width: 50%;
 }
 
