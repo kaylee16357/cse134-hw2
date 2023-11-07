@@ -77,22 +77,11 @@ picture {
    background-color: var(--background-color);
 }
 
-#left{
-  height: 100%;
+.box {
+  float: left;
   width: 50%;
-  padding: 1vw;
-  display: inline-block;
-  vertical-align: middle;
- 
-}
-
-#right {
-  height: 100%;
-  width: 50%;
-  padding: 1vw;
-  display: inline-block;
-  vertical-align: middle;
-  float: right;
+  padding: 50px;
+  height: 300px;
 }
 
 h1, h2, h3, p{
