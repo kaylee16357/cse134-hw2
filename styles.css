@@ -10,6 +10,12 @@
   to {color: var(--text-color);}
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .text_and_photo, .text_and_photo .box, .flex-container, .flex-container .box {
+    width:  100%;
+  }
+
 html {
   font-family:  "Montserrat",  serif, Helvetica;
 }
