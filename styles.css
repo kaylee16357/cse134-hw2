@@ -37,6 +37,7 @@ footer{
 .picture {
     display: inline-block;
     vertical-align: middle;
+    width: 40%;
     margin-top: 1vw;
 }
 
