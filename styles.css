@@ -12,14 +12,10 @@
 
 @media only screen and (max-width: 767px) {
   /* For mobile phones: */
-  .text_and_photo, .text_and_photo .box1, .text_and_photo .box2, .flex-container, .flex-container .box {
+  .text_and_photo, .text_and_photo .box, .flex-container, .flex-container .box {
     width:  100%;
     display: block;
     text-align: center;
-  }
-
-  .text_and_photo .box1 {
-    padding-top: 10vw;
   }
 }
 
@@ -79,11 +75,9 @@ footer{
    clear:both;
    padding:0px 0px 0px 0px;
    margin: 0;
-   /* float: left; */
    width:100%;
    top: 0;
    font-size:1.2em;  
-  /* z-index: 1000 */
 }
 
 .FooterNav{
