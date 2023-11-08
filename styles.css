@@ -129,7 +129,8 @@ textarea{
 }
 
 img{
-  
+  width: auto;
+  height: auto;
 }
 
 ol a {
