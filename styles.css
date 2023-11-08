@@ -19,6 +19,32 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+.text_and_photo{
+  float: left;
+  display: flex;
+  flex-wrap: nowrap;
+  width:  100%;
+}
+
+.text_and_photo .box {
+   display: inline-block;
+   width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  width:  100%;
+}
+
+.flex-container .box {
+  width: 50%;
+  text-align: center;
+  margin: 10px;
+}
+}
+
 html {
   font-family:  "Montserrat",  serif, Helvetica;
 }
@@ -66,29 +92,7 @@ footer{
    position:relative;
 }
 
-.text_and_photo{
-  float: left;
-  display: flex;
-  flex-wrap: nowrap;
-  width:  100%;
-}
 
-.text_and_photo .box {
-   display: inline-block;
-   width: 50%;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  width:  100%;
-}
-
-.flex-container .box {
-  width: 50%;
-  text-align: center;
-  margin: 10px;
-}
 
 h1, h2, h3, p{
   color: var(--text-color);
