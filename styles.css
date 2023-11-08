@@ -12,10 +12,14 @@
 
 @media only screen and (max-width: 767px) {
   /* For mobile phones: */
-  .text_and_photo, .text_and_photo .box, .flex-container, .flex-container .box {
+  .text_and_photo, .text_and_photo .box1, .text_and_photo .box2, .flex-container, .flex-container .box {
     width:  100%;
     display: block;
     text-align: center;
+  }
+
+  .text_and_photo .box1 {
+    padding-top: 10vw;
   }
 }
 
@@ -29,6 +33,7 @@
 
 .text_and_photo .box {
    display: inline-block;
+   padding: 2vw;
    width: 50%;
 }
 
