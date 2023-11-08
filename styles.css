@@ -95,8 +95,13 @@ footer{
    position:relative;
 }
 
-h1, h2, h3, p{
+h1, h2, h3{
   color: var(--text-color);
+}
+
+p {
+  color: var(--text-color);
+  max-width: 450px;
 }
 
 a {
