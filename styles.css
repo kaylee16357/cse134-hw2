@@ -85,14 +85,10 @@ footer{
 }
 
 .FooterNav{
-   clear:both;
-   padding:0vw 0vw 0vw 1vw;
-   margin: 0;
-   width:100%;
-   font-size:1.2em;  
-   z-index:1000; 
-   position:fixed;
-    bottom: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
