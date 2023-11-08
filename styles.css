@@ -123,10 +123,17 @@ textarea{
   height: 6vw;
 }
 
-img{
+img {
   width: 100%;
-  height: auto;
+  height: 75%;
 }
+
+figure img {
+  width: intial;
+  height: intial;
+}
+
+.text_and_photo .box 
 
 ol a {
   color: var(--text-color);
