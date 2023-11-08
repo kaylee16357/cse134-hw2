@@ -14,7 +14,8 @@
   /* For mobile phones: */
   .text_and_photo, .text_and_photo .box, .flex-container, .flex-container .box {
     width:  100%;
-    display: none;
+    display: block;
+    text-align: left;
   }
 }
 
