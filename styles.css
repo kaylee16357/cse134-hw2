@@ -32,6 +32,11 @@
    width: 50%;
 }
 
+.text_and_photo .box img {
+  object-postion: center;
+  vertical-align: middle;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
