@@ -69,6 +69,7 @@ main{
 }
 
 header{
+  height: fit-content;
 }
 
 footer{
@@ -150,8 +151,8 @@ footer p {
    margin: 1vw;
    padding: 0.5vw;
    list-style:none;
-   float:right;
-   position:relative;
+   text-align:right;
+   /*position:relative;*/
 }
 
 .FooterNav ul{
