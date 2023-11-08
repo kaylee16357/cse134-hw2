@@ -121,6 +121,11 @@ textarea{
   height: 6vw;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 ol a {
   color: var(--text-color);
 }
