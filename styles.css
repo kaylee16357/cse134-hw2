@@ -32,10 +32,8 @@
    width: 50%;
 }
 
-.text_and_photo .box img {
-  object-position: center;
-  padding: 1vw 1vw;
-  vertical-align: middle;
+.text_and_photo .box picture {
+  margin: 1vw;
 }
 
 .flex-container {
