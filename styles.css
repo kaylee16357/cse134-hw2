@@ -67,8 +67,6 @@ header{
 footer{
   background-color: var(--header-color);
   color: var(--background-color);
-  postion: relative;
-  float: center;
 }
 
 
@@ -85,13 +83,10 @@ footer{
 }
 
 .FooterNav{
-  overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-
-
 
 h1, h2, h3, p{
   color: var(--text-color);
