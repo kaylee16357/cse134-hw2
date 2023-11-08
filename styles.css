@@ -140,20 +140,13 @@ footer p {
    position:relative;
 }
 
-.footernav a {
+.Footernav a {
   float: left;
   display: block;
   text-align: center;
   padding: 14px 16px;
 }
 
-float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 
 .myNav ul li, .FooterNav ul li{
   display: inline;
