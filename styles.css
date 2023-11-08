@@ -69,7 +69,6 @@ main{
 }
 
 header{
-  height: auto;
 }
 
 footer{
@@ -81,7 +80,6 @@ footer{
 .myNav{
    background-color: var(--header-color);
    clear:both;
-   float:left;
    padding:0px 0px 0px 0px;
    margin: 0;
    width:100%;
