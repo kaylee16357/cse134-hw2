@@ -101,7 +101,6 @@ h1, h2, h3{
 
 p {
   color: var(--text-color);
-  max-width: 750px;
 }
 
 a {
