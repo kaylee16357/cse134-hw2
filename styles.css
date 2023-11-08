@@ -83,9 +83,13 @@ footer{
 }
 
 .FooterNav{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+   clear:both;
+   padding:0vw 0vw 0vw 1vw;
+   margin: 0;
+   width:100%;
+   font-size:1.2em;  
+   z-index:1000; 
+   position:fixed;
 }
 
 h1, h2, h3, p{
@@ -135,13 +139,14 @@ footer p {
    position:relative;
 }
 
-.Footernav a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
+.FooterNav ul{
+   margin: 1vw;
+   padding: 0.5vw;
+   list-style: none;
+   text-align: center;
+   position:relative;
+   list-style: none;
 }
-
 
 .myNav ul li, .FooterNav ul li{
   display: inline;
