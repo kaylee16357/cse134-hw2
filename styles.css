@@ -47,6 +47,8 @@
 
 html {
   font-family:  "Montserrat",  serif, Helvetica;
+  height: 100%;
+  widt
 }
 
 body {
@@ -89,7 +91,8 @@ footer{
    width:100%;
    font-size:1.2em;  
    z-index:1000; 
-   position:relative;
+   position:fixed;
+    bottom: 0;
 }
 
 
