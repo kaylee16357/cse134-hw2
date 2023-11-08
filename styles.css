@@ -68,10 +68,6 @@ main{
   margin: 1vw;
 }
 
-header{
-  height: fit-content;
-}
-
 footer{
   background-color: var(--header-color);
   color: var(--background-color);
@@ -83,10 +79,11 @@ footer{
    clear:both;
    padding:0px 0px 0px 0px;
    margin: 0;
-   float: left;
+   /* float: left; */
    width:100%;
+   top: 0;
    font-size:1.2em;  
-   z-index:1000; 
+  /* z-index: 1000 */
 }
 
 .FooterNav{
@@ -95,8 +92,7 @@ footer{
    margin: 0;
    width:100%;
    font-size:1.2em;  
-   top: 0; 
-   /* position:relative; */
+   position:relative; 
   
 }
 
@@ -153,7 +149,6 @@ footer p {
    padding: 0.5vw;
    list-style:none;
    text-align:right;
-   /*position:relative;*/
 }
 
 .FooterNav ul{
