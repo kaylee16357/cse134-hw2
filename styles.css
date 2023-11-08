@@ -164,6 +164,10 @@ a:hover {
   color: var(--accent-color);
 }
 
+h1:has(+ h2){
+  color: var(--header-color);
+}
+
 
 
 
