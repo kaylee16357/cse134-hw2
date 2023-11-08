@@ -2,7 +2,7 @@
 :root{
 --background-color:  #142d4c;
   --text-color: #ececec;
-  --header-color: color-mix(in lch, aquamarine 80%, cyan);
+  --header-color: color-mix(in lch, aquamarine 80%, white);
   --accent-color: #9fd3c7;
 
 }
