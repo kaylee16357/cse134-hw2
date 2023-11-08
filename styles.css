@@ -82,10 +82,10 @@ footer{
    clear:both;
    padding:0px 0px 0px 0px;
    margin: 0;
+   float: left;
    width:100%;
    font-size:1.2em;  
    z-index:1000; 
-   position:relative;
 }
 
 .FooterNav{
