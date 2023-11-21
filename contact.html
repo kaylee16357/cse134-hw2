@@ -29,16 +29,38 @@
 <div class="flex-container">
   <div class="box">
     <h2>Send Me a Message</h2>
-    <form action="https://main--dashing-souffle-f504cf.netlify.app/contact" method="get" class="form-example">
+    <form action="https://httpbin.org" method="post" class="form-example">
+      <form-field> 
       <label for="name"> Your Name: </label><br>
-      <input type="text" name="name" id="name" required ><br>
+      <input type="text" name="name" id="name" required >
+      <span class="error-message"></span>
+      <br>
+      </form-field>
+
+      <form-field> 
       <label for="email">Your Email: </label><br>
       <input type="email" name="email" id="email" required ><br>
+      </form-field>
+        
+      <form-field> 
       <label for="subject">Subject: </label><br>
       <input type="text" name="subject" id="subject" required ><br>
+      <span class="error-message"></span>  
+      </form-field>
+
+        
+      <form-field> 
       <label for="message">Message: </label><br>
       <textarea id="message" name="message"> </textarea><br>
-      <input type="submit" value="Send Message">
+      <span class="error-message"></span> 
+      </form-field>
+
+      <input type="hidden" name="possible_bot" id="possible_bot" value="true">
+
+      <form-field> 
+      <button type="submit"> Send Message</button>
+      </form-field>
+      
     </form>
   </div>
 
