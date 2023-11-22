@@ -7,19 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
-  input:invalid, textarea:invalid {
+  input:invalid{
     box-shadow: 0 0 5px 1px red;
   }
 
-  input:focus:invalid, textarea:focus:invalid {
+  input:focus:invalid {
     box-shadow: none;
   }
   </style>
 
-  <script>
-
-    
-  </script>
+  <script src="theme.js"></script>
 </head>
 
   
@@ -60,8 +57,8 @@
       </form-field>
     
       <form-field> 
-      <label for="message">Comments: <span aria-label="required">*</span></label><br>
-      <textarea id="message" name="message" maxlength="250" required> </textarea><br>
+      <label for="message">Comments: </label><br>
+      <textarea id="message" name="message" maxlength="250"> </textarea><br>
       <output name="error" for="message"></output>
       <output name="info" for="message"></output>
       </form-field>
