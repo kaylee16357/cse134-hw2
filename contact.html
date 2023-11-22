@@ -47,6 +47,8 @@
       <form-field> 
       <label for="name"> Your Name: <span aria-label="required">*</span></label><br>
       <input type="text" name="name" id="name" maxlength="50" required >
+      <output name="error" for="name"></output>
+      <output name="info" for="name"></output>
       <span class="error-message"></span>
       <br>
       </form-field>
@@ -54,11 +56,15 @@
       <form-field> 
       <label for="email">Your Email: <span aria-label="required">*</span></label><br>
       <input type="email" name="email" id="email" required pattern="*@*.com|*@*.edu"|*@*.org|*@*.cc"><br>
+      <output name="error" for="email"></output>
+      <output name="info" for="email"></output>
       </form-field>
     
       <form-field> 
       <label for="message">Comments: <span aria-label="required">*</span></label><br>
       <textarea id="message" name="message" maxlength="250" required> </textarea><br>
+      <output name="error" for="message"></output>
+      <output name="info" for="message"></output>
       <span class="error-message"></span> 
       </form-field>
 
