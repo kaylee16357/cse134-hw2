@@ -15,6 +15,11 @@
     box-shadow: none;
   }
   </style>
+
+  <script>
+
+    
+  </script>
 </head>
 
   
@@ -40,19 +45,19 @@
     <h2>Send Me a Message</h2>
     <form action="https://httpbin.org" method="get" class="form-example">
       <form-field> 
-      <label for="name"> Your Name: </label><br>
+      <label for="name"> Your Name: <span aria-label="required">*</span></label><br>
       <input type="text" name="name" id="name" maxlength="50" required >
       <span class="error-message"></span>
       <br>
       </form-field>
 
       <form-field> 
-      <label for="email">Your Email: </label><br>
+      <label for="email">Your Email: <span aria-label="required">*</span></label><br>
       <input type="email" name="email" id="email" required pattern="*@*.com|*@*.edu"|*@*.org|*@*.cc"><br>
       </form-field>
     
       <form-field> 
-      <label for="message">Comments: </label><br>
+      <label for="message">Comments: <span aria-label="required">*</span></label><br>
       <textarea id="message" name="message" maxlength="250" required> </textarea><br>
       <span class="error-message"></span> 
       </form-field>
