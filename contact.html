@@ -32,7 +32,7 @@
     <form action="https://httpbin.org" method="get" class="form-example">
       <form-field> 
       <label for="name"> Your Name: </label><br>
-      <input type="text" name="name" id="name" required >
+      <input type="text" name="name" id="name" maxlength="50" required >
       <span class="error-message"></span>
       <br>
       </form-field>
@@ -44,14 +44,14 @@
         
       <form-field> 
       <label for="subject">Subject: </label><br>
-      <input type="text" name="subject" id="subject" required ><br>
+      <input type="text" name="subject" id="subject" maxlength="50" required ><br>
       <span class="error-message"></span>  
       </form-field>
 
         
       <form-field> 
       <label for="message">Message: </label><br>
-      <textarea id="message" name="message"> </textarea><br>
+      <textarea id="message" name="message" maxlength="250"> </textarea><br>
       <span class="error-message"></span> 
       </form-field>
 
