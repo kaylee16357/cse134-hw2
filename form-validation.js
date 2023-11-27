@@ -12,14 +12,6 @@
       }
     });
 
- 
-    form.addEventListener('submit', function (e) {
-      if(!email.validity.valid) {
-        giveError();
-        e.preventDefault();
-      }
-    });
-
     function giveError() {
       if(email.validity.valueMissing) {
         emailError.textContent = 'Please input an e-mail address.';
