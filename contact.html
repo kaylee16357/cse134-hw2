@@ -47,8 +47,7 @@
       <form-field> 
       <label for="name"> Your Name: <span aria-label="required">*</span></label><br>
       <input type="text" name="name" id="name" maxlength="50" required >
-      <output name="error" for="name"></output>
-      <output name="info" for="name"></output>
+        
       <br>
       </form-field>
 
@@ -60,10 +59,9 @@
       </form-field>
     
       <form-field> 
-      <label for="message">Comments: </label><br>
-      <textarea id="message" name="message" maxlength="250"> </textarea><br>
-      <output name="error" for="message"></output>
-      <output name="info" for="message"></output>
+      <label for="comments">Comments: </label><br>
+      <textarea id="comments" name="comments" maxlength="250"> </textarea><br>
+      <span id="char">0</span> Characters
       </form-field>
 
       <input type="hidden" name="possible_bot" id="possible_bot" value="true">
@@ -75,6 +73,7 @@
     </form>
   </div>
 <script src="form-validation.js"></script>
+<script src="counter.js"></script>
 
 
 <div class="box">
