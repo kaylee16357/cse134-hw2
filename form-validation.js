@@ -8,7 +8,7 @@
         emailError.innerHTML = ''; 
         emailError.className = 'error'; 
       } else {
-        emailError();
+        Error();
       }
     });
 
@@ -16,12 +16,12 @@
 
     form.addEventListener('submit', function (e) {
       if(!email.validity.valid) {
-        emailError();
+        Error();
         e.preventDefault();
       }
     });
 
-    function emailError() {
+    function Error() {
       if(email.validity.valueMissing) {
         emailError.textContent = 'Please input an e-mail address.';
       } else if(email.validity.typeMismatch) {
