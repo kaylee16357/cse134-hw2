@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <title>Kaylee Spratley's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+  input:invalid{
+    box-shadow: 0 0 5px 1px red;
+  }
+
+  input:focus:invalid {
+    box-shadow: none;
+  }
+  </style>
+
+</head>
+
+  
+<body>
+<nav class="myNav">                                 
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+    </ul>
+</nav>
+
+
+<button type="button" id="data-theme-toggle" style="display:none" aria-label="Change to light theme"> Change to light theme </button>
+<script> document.getElementById('data-theme-toggle').style.display='';</script>
+<script src="theme.js"></script>
+
+<h1>Contact Me</h1>
+
+
+
+
+<div class="flex-container">
+  <div class="box">
+    <h2>Send Me a Message</h2>
+    <form action="https://httpbin.org" method="get" class="form-example">
+      <form-field> 
+      <label for="name"> Your Name: <span aria-label="required">*</span></label><br>
+      <input type="text" name="name" id="name" maxlength="50" required >
+      <output name="error" for="name"></output>
+      <output name="info" for="name"></output>
+      <br>
+      </form-field>
+
+      <form-field> 
+      <label for="email">Your Email: <span aria-label="required">*</span></label><br>
+      <input type="email" name="email" id="email" required pattern="*@*.com|*@*.edu"|*@*.org|*@*.cc"><br>
+      <output name="error" for="email"></output>
+      <output name="info" for="email"></output>
+      </form-field>
+    
+      <form-field> 
+      <label for="message">Comments: </label><br>
+      <textarea id="message" name="message" maxlength="250"> </textarea><br>
+      <output name="error" for="message"></output>
+      <output name="info" for="message"></output>
+      </form-field>
+
+      <input type="hidden" name="possible_bot" id="possible_bot" value="true">
+
+      <form-field> 
+      <button type="submit"> Send Message</button>
+      </form-field>
+      
+    </form>
+  </div>
+
+<div class="box">
+  <h2>Connect with me on Social Media</h2>
+  <figure>
+      <img src="LinkedInLogo.jpg"  width="intial" height="intital" alt="LinkedIn Logo" style="height=intital; width=intial;"> 
+    <figcaption><a href="www.linkedin.com/in/kaylee-spratley-96a674159"  style="color: var(--text_color)">LinkedIn</a></figcaption>
+  </figure>
+  </div>
+</div>
+
+<footer>
+  <nav class="FooterNav">                               
+     <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+       <li><a href="contact.html">Contact</a></li>
+
+    </ul> 
+    <p>Design by Kaylee Spratley</p>
+  </nav>
+</footer>
+
+</body>
+</html>
