@@ -14,6 +14,22 @@
   input:focus:invalid {
     box-shadow: none;
   }
+
+  .error {
+  width: 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
   </style>
 
 </head>
@@ -60,8 +76,6 @@
     </label>
     </p>
       
-      
-
     
       <form-field> 
       <label for="comments">Comments: </label><br>
