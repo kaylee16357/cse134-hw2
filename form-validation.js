@@ -27,7 +27,6 @@
       } else if(email.validity.typeMismatch) {
         emailError.textContent = 'Entered value is not an email';
       }
-      emailError.className = 'error active';
-    }          
-      emailError.className = 'error active';
+    }
+          email.className = 'error active';
     }
