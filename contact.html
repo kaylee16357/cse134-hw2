@@ -43,17 +43,19 @@
 <div class="flex-container">
   <div class="box">
     <h2>Send Me a Message</h2>
+    
     <form action="https://httpbin.org" method="get" novalidate>
       <form-field> 
+      
       <label for="name"> Your Name: <span aria-label="required">*</span></label><br>
       <input type="text" name="name" id="name" maxlength="50" required>
       <br>
       </form-field>
 
-      <form-field> 
+      <form-field> <p>
       <label for="email">Your Email: <span aria-label="required">*</span><br></label>
       <input type="email" name="email" id="email"><br>
-      <span class="error" aria-live="polite"></span>
+      <span class="error" aria-live="polite"></span></p>
       </form-field>
     
       <form-field> 
