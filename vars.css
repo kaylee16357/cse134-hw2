@@ -1,9 +1,25 @@
 
 :root{
---background-color:  #142d4c;
+  --background-color: #ececec;
+  --text-color: #142d4c;
+  --header-color: color-mix(in lch, aquamarine 80%, white);
+  --accent-color: #9fd3c7 ;
+
+}
+
+
+[data-theme="light"] {
+  --background-color: #ececec;
+  --text-color: #142d4c;
+  --header-color: color-mix(in lch, aquamarine 80%, white);
+  --accent-color: #9fd3c7 ;
+  
+}
+
+[data-theme="dark"] {
+  --background-color:  #142d4c;
   --text-color: #ececec;
   --header-color: color-mix(in lch, aquamarine 80%, white);
   --accent-color: #9fd3c7;
-
 }
   
