@@ -8,18 +8,18 @@ const nameError = document.querySelector('#name + span.error');
         nameError.innerHTML = ''; 
         nameError.className = 'error'; 
       } else {
-        nameError();
+        giveError();
       }
     });
 
     form.addEventListener('submit', function (e) {
       if(!name.validity.valid) {
-        nameError();
+        giveError();
         e.preventDefault();
       }
     });
 
-    function nameError() {
+    function giveError() {
       if(name.validity.valueMissing) {
         nameError.textContent = 'Please input your name.';
       } else if(name.validity.tooShort) {
