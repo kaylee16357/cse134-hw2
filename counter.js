@@ -17,9 +17,10 @@ function changeColor(count) {
 area.addEventListener('input', function () { 
   
     let content = this.value; 
-    char.textContent = 250 - content.length; 
+    changeColor(content);
+    char.textContent = 250 - content.length;   
     content.trim(); 
     console.log(content);  
-    changeColor(content);
+  
 
 });
