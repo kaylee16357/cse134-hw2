@@ -13,7 +13,6 @@
     });
 
  
-
     form.addEventListener('submit', function (e) {
       if(!email.validity.valid) {
         Error();
@@ -27,6 +26,5 @@
       } else if(email.validity.typeMismatch) {
         emailError.textContent = 'Entered value is not an email';
       }
-    }
           email.className = 'error active';
     }
