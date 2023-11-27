@@ -1,17 +1,8 @@
 
-:root{
-  --background-color: #ececec;
-  --text-color: #142d4c;
-  --header-color: #142d4c;
-  --accent-color: #9fd3c7;
-
-}
-
-
 [data-theme="light"] {
   --background-color: #ececec;
   --text-color: #142d4c;
-  --header-color: color-mix(in lch, aquamarine 80%, white);
+  --header-color: #142d4c;
   --accent-color: #9fd3c7 ;
   
 }
