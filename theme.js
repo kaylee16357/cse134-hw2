@@ -42,6 +42,7 @@ button.addEventListener("click", (event) => {
   updateTheme({ theme: newTheme });
 
   currentThemeSetting = newTheme;
+  localStorage.setItem("theme", currentThemeSetting);
 }); 
 
 
