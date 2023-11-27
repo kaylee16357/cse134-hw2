@@ -1,4 +1,4 @@
-const form = document.querySelector("form");
+const form = document.querySelector("form")[1];
 const email = document.getElementById("email");
 const emailError = document.querySelector("#email + span.error");
 
