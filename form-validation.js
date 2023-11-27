@@ -8,19 +8,19 @@
         emailError.innerHTML = ''; 
         emailError.className = 'error'; 
       } else {
-        Error();
+        giveError();
       }
     });
 
  
     form.addEventListener('submit', function (e) {
       if(!email.validity.valid) {
-        Error();
+        giveError();
         e.preventDefault();
       }
     });
 
-    function Error() {
+    function giveError() {
       if(email.validity.valueMissing) {
         emailError.textContent = 'Please input an e-mail address.';
       } else if(email.validity.typeMismatch) {
