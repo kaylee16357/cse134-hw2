@@ -19,7 +19,6 @@ area.addEventListener('input', function () {
     let content = this.value; 
     char.textContent = 250 - content.length;   
   
-    changeColor(content);
     content.trim(); 
     console.log(content);  
   
