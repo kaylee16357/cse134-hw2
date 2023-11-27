@@ -1,6 +1,6 @@
     const form  = document.getElementsByTagName('form')[0];
-    const email = document.getElementById('mail');
-    const emailError = document.querySelector('#mail + span.error');
+    const email = document.getElementById('email');
+    const emailError = document.querySelector('#email + span.error');
 
     email.addEventListener('input', function (event) {
       
@@ -24,9 +24,6 @@
         emailError.textContent = 'You need to enter an e-mail address.';
       } else if(email.validity.typeMismatch) {
         emailError.textContent = 'Entered value needs to be an e-mail address.';
-      } else if(email.validity.tooShort) {
-        emailError.textContent = `Email should be at least ${ email.minLength } characters; you entered ${ email.value.length }.`;
       }
-
       emailError.className = 'error active';
     }
