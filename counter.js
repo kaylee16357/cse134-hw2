@@ -1,6 +1,5 @@
 let area = document.getElementById('comments'); 
 let char = document.getElementById('char'); 
-let text = document.getElementById('counter');
 
 function changeColor(count) {
   if(count >== 230){
@@ -18,7 +17,7 @@ area.addEventListener('input', function () {
   
     let content = this.value; 
     char.textContent = 250 - content.length;   
-  
+    changeColor(count);
     content.trim(); 
     console.log(content);  
   
