@@ -25,6 +25,5 @@ const nameError = document.querySelector('#name + span.error');
       } else if(name.validity.tooShort) {
         nameError.textContent = 'Email should be at least ${name.minLength} characters; you entered ${name.value.length}.`;
       }
-  
       nameError.className = 'error active';
     }
