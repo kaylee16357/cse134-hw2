@@ -2,8 +2,8 @@
 :root{
   --background-color: #ececec;
   --text-color: #142d4c;
-  --header-color: color-mix(in lch, aquamarine 80%, white);
-  --accent-color: #9fd3c7 ;
+  --header-color: #142d4c;
+  --accent-color: #9fd3c7;
 
 }
 
