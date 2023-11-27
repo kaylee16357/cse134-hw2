@@ -1,16 +1,37 @@
+function Setting({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
 
-function updateButton({ buttonEl, isDark }) {
-  const newCta = isDark ? "Change to light theme" : "Change to dark theme";
-  buttonEl.innerText = newCta;
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
 }
 
 
-function updateThemeOnHtmlEl({ theme }) {
+function updateButton({ buttonEl, isDark }) {
+  const newText = isDark ? "Change to light theme" : "Change to dark theme";
+  buttonEl.setAttribute("aria-label", newText);
+  buttonEl.innerText = newText;
+}
+
+function updateTheme({ theme }) {
   document.querySelector("html").setAttribute("data-theme", theme);
 }
 
 
 const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+
+let currentThemeSetting = Setting({ localStorageTheme, systemSettingDark });
+
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateTheme({ theme: currentThemeSetting });
 
 
 button.addEventListener("click", (event) => {
@@ -18,7 +39,7 @@ button.addEventListener("click", (event) => {
 
   localStorage.setItem("theme", newTheme);
   updateButton({ buttonEl: button, isDark: newTheme === "dark" });
-  updateThemeOnHtmlEl({ theme: newTheme });
+  updateTheme({ theme: newTheme });
 
   currentThemeSetting = newTheme;
 }); 
