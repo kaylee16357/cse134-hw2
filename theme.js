@@ -22,7 +22,7 @@ function updateTheme({ theme }) {
 }
 
 
-const button = document.querySelector("[data-theme-toggle]");
+const button = document.getElementById('data-theme-toggle');
 const localStorageTheme = localStorage.getItem("theme");
 const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
 
