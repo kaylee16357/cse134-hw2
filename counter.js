@@ -4,7 +4,7 @@ let text = document.getElementById('counter');
 
 function changeColor(count) {
   if(count >== 230){
-    text.style.color = 'red';
+    char.textContent.style.color = 'red';
   }
   if(count === 250){
     text.style.color = 'red';
@@ -17,8 +17,8 @@ function changeColor(count) {
 area.addEventListener('input', function () { 
   
     let content = this.value; 
-    changeColor(content);
     char.textContent = 250 - content.length;   
+    changeColor(content);
     content.trim(); 
     console.log(content);  
   
