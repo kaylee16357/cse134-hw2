@@ -4,11 +4,11 @@ let text = document.getElementById('counter');
 
 function changeColor(count) {
   if(count >== 230){
-    char.textContent.style.color = 'red';
+    char.style.color = 'red';
   }
   if(count === 250){
-    text.style.color = 'red';
-    text.textContent = 'Error: max characters reached';
+    char.style.color = 'red';
+    char.textContent = 'Error: max characters reached';
   }
 
 }
@@ -18,6 +18,7 @@ area.addEventListener('input', function () {
   
     let content = this.value; 
     char.textContent = 250 - content.length;   
+  
     changeColor(content);
     content.trim(); 
     console.log(content);  
