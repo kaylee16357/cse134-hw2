@@ -9,7 +9,7 @@ area.addEventListener('input', function () {
     content.trim(); 
     console.log(content); 
 
-    if char.textContent <= 20 {
+    if content.length >= 230 {
       char.style.color = 'red';
     }
 
